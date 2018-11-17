@@ -1,0 +1,106 @@
+html, body, h1, h2, h3, p {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.section-title {
+    padding-bottom: 1em;
+}
+
+.main-blue-background { 
+    background-color: rgba(49, 62, 80, 1);
+}
+
+.main-blue-background .title, .subtitle {
+    color: #ffffff;
+}
+
+.main-peach-txt { 
+    background-color: rgba(192, 87, 70, 1);
+}
+
+.main-green-txt { 
+    background-color: rgba(173, 198, 152, 1);
+}
+
+.main-light-green-txt { 
+    background-color: rgba(208, 227, 196, 1);
+}
+
+.main-white-txt { 
+    color: rgba(255, 255, 255, 1);
+}
+
+#lander {
+    background: linear-gradient(rgba(20, 20, 20, 0.5), rgba(20, 20, 20, 0.5)),
+    rgba(20, 20, 20, .8) url("../img/camel.jpg") no-repeat center;
+    background-size: cover;
+    background-position-y: 70%;
+}
+
+
+.card hr {
+    margin: 0.5rem 0rem;
+}
+
+.is-size-6--5{
+    font-size: 0.8rem;
+}
+
+.tech-stack {
+    margin: 0.2rem 0rem;
+}
+
+.cust-card-img {
+    padding-top: 1em;
+}
+.card-image .cust-img {
+    max-height: 2em; 
+}
+
+.bg-black {
+    background: black;
+}
+
+.img-spacing {
+    padding: 1em;
+}
+
+.logo-project-img {
+    height: auto !important;
+    width: auto !important;
+    margin: auto;
+}
+
+#pg-logo {
+    height: auto;
+    width: auto;
+    margin: auto
+}
+
+#bio {
+    width: 90%;
+    margin: auto;
+    padding-top: 0.5em;
+}
+
+#contact-form {
+    margin: auto;
+}
+
+#contact-form input,textarea {
+    margin-bottom: 1em;
+}
+
+@media screen and (min-width: 769px) {
+    #contact-form {
+        width: 50%;
+    }
+    
+    #bio {
+        width: 80%;
+    }
+
+    #lander {
+        background-position-y: 75%;
+    }
+}

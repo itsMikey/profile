@@ -1,0 +1,7 @@
+{
+  "name": "profile",
+  "version": "1.0",
+  "description": "My profile website",
+  "main": "index.js",
+  "license": "MIT"
+}
