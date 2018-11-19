@@ -15,7 +15,6 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css" />
         <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/main.css" />
-        <script src="./assets/js/main.js"></script>
     </head>
 
     <body>
@@ -376,7 +375,7 @@
                                     >M5 Truck Repair</a
                                 >
                                 <p>
-                                    Site was created for one of the few mobile truck repair businesses in the bay area.
+                                    Site was created for one of the few mobile truck repair businesses in the Bay Area.
                                     Uses Javascript and Bootstrap.
                                 </p>
                             </div>
@@ -390,14 +389,20 @@
         <footer class="footer">
             <div class="container has-text-centered">
                 <h3 class="is-size-3 section-title">Contact</h3>
-                <form id="contact-form" action="">
-                    <input class="input" type="text" placeholder="Name">
-                    <input class="input" type="email" placeholder="Email">
-                    <textarea class="textarea" placeholder="Drop me a line"></textarea>
-                    <a class="button is-primary is-fullwidth">Submit</a>
+               
+                <form id="contact-form" name="contact">
+                    <input name="user_name" class="input" type="text" placeholder="Name">
+                    <input name="email" class="input" type="email" placeholder="Email">
+                    <textarea name="msg" class="textarea" placeholder="Drop me a line"></textarea>
+                    <button id="submitBtn" type="submit" class="button is-primary is-fullwidth">Submit</button>
                 </form>
+                <p id="msg"></p>
             
             </div>
       </footer>
+
+      <script src="./src/sendEmail/errorHandler.js"></script>
+      <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+      <script src="./assets/js/main.js"></script>
     </body>
 </html>

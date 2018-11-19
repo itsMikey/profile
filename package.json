@@ -3,5 +3,8 @@
   "version": "1.0",
   "description": "My profile website",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
 }

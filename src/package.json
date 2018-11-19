@@ -1,0 +1,11 @@
+{
+  "name": "form_handler",
+  "version": "1.0.0",
+  "description": "Handle Form",
+  "main": "index.js",
+  "author": "Mikey Aburamadan",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
+}
